@@ -64,7 +64,9 @@ function App() {
         <p>For now, connect with me through email or Instagram. We can add your exact links later.</p>
         <div className="contactLinks">
           <a href="mailto:hello@manuraphotography.com"><Mail size={18} /> hello@manuraphotography.com</a>
-          <a href="https://instagram.com/" target="_blank" rel="noreferrer"><Instagram size={18} /> Instagram</a>
+          <a href="https://instagram.com/" target="_blank" rel="noreferrer">
+  Instagram
+</a>
         </div>
       </section>
     </main>
