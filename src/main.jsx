@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { Instagram, Mail, Camera } from 'lucide-react';
+import { Mail, Camera } from "lucide-react";
 import './styles.css';
 
 const photos = [
