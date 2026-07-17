@@ -60,9 +60,8 @@ function App() {
         </section>
 
         <section id="gallery" className="section gallerySection">
-          <div className="sectionHeading">
+          <div className="sectionHeading singleHeading">
             <div><p className="eyebrow">Selected work</p><h2>Gallery</h2></div>
-            <p>Start with your strongest images. Replace the sample filenames with your own photos whenever you are ready.</p>
           </div>
 
           <div className="filters" aria-label="Photo categories">
@@ -89,8 +88,8 @@ function App() {
             <p>This portfolio brings together work captured over the past several years. The goal is simple: preserve meaningful moments and present them without distraction.</p>
             <dl className="aboutFacts">
               <div><dt>Based in</dt><dd>United States</dd></div>
-              <div><dt>Originally from</dt><dd>Sri Lanka</dd></div>
-              <div><dt>Camera</dt><dd>Canon R6 Mark II</dd></div>
+              {/* <div><dt>Originally from</dt><dd>Sri Lanka</dd></div>
+              <div><dt>Camera</dt><dd>Canon R6 Mark II</dd></div> */}
             </dl>
           </div>
         </section>
