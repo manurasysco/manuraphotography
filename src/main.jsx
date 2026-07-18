@@ -24,6 +24,14 @@ function CameraMark() {
 }
 
 function App() {
+  React.useEffect(() => {
+  const disableMenu = (e) => e.preventDefault();
+  document.addEventListener("contextmenu", disableMenu);
+
+  return () => {
+    document.removeEventListener("contextmenu", disableMenu);
+  };
+}, []);
   const [activeCategory, setActiveCategory] = useState("All");
   const [selectedPhoto, setSelectedPhoto] = useState(null);
   const [menuOpen, setMenuOpen] = useState(false);
