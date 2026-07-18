@@ -96,8 +96,8 @@ function App() {
 
         <section id="contact" className="section contactSection">
           <p className="eyebrow">Contact</p><h2>Let’s stay connected.</h2>
-          <p>Add your preferred email and social links here when you are ready.</p>
-          <div className="contactLinks"><a href="mailto:hello@manuraphotography.com">Email</a><a href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram</a></div>
+          <p>Follow my journey and get in touch.</p>
+          <div className="contactLinks"><a href="mailto:hello@manuraphotography.com">Email</a><a href="https://www.instagram.com/framesbymanura/" target="_blank" rel="noopener noreferrer">Instagram</a></div>
         </section>
       </main>
 
